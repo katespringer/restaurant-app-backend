@@ -2,7 +2,7 @@ module.exports = ({ env }) => ({
   defaultConnection: 'default',
   connections: {
     default: {
-      connector: 'mongoose',
+      connector: 'postgres',
       settings: {
         host: env('DATABASE_HOST', 'ec2-54-157-16-196.compute-1.amazonaws.com'),
         srv: env.bool('DATABASE_SRV', true),

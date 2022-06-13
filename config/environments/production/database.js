@@ -1,5 +1,6 @@
 module.exports = ({ env }) => ({
-  connection: {
+  defaultConnection: 'default',
+  connections: {
     client: 'postgres',
     connection: {
       host: env('DATABASE_HOST', '@ec2-54-157-16-196.compute-1.amazonaws.com'),

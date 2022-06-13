@@ -1,7 +1,9 @@
 module.exports = ({ env }) => ({
-  url: env('https://kate-springer-restaurant-app.herokuapp.com/'),
-  proxy: true,
-  app: {
-    keys: env('+bnMqMhCI2P/0thk76m/TjHczIz+rRmh+yBOurVQViM=')
+  host: env('HOST', '0.0.0.0'),
+  port: env.int('PORT', 1337),
+  admin: {
+    auth: {
+      secret: env('ADMIN_JWT_SECRET', '5SYFxrla9qZRlYJQYVOHj20TDYOqJIKDvhk5OMySqE4='),
+    },
   },
 });

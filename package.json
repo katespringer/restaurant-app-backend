@@ -40,6 +40,7 @@
     "strapi-plugin-settings-manager": "3.0.0-beta.14",
     "strapi-plugin-upload": "3.0.0-beta.14",
     "strapi-plugin-users-permissions": "3.0.0-beta.14",
+    "strapi-provider-upload-do": "^3.6.6",
     "strapi-utils": "3.0.0-beta.14",
     "stripe": "^8.109.0"
   },
@@ -50,7 +51,7 @@
     "uuid": "a45046ad-52e3-426c-a7aa-25c5de132bfe"
   },
   "engines": {
-    "node": "14.0.0",
+    "node": "16.0.0",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
